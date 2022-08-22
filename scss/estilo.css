@@ -1,0 +1,29 @@
+header {
+  background-color: #4E5340;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  color: #E2E8DD;
+}
+header nav {
+  background-color: bisque;
+}
+header nav li {
+  display: inline-block;
+}
+header nav a {
+  text-decoration: none;
+  color: bisque;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+header nav:hover {
+  background-color: aliceblue;
+}
+
+body {
+  background-color: #E2E8DD;
+}/*# sourceMappingURL=estilo.css.map */

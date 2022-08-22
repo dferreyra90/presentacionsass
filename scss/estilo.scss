@@ -1,0 +1,72 @@
+body{
+    background-color: #faebd7;
+}
+
+header {
+    font-size: 1rem;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+header:hover {
+    background-color: lavender;
+}
+
+h1 {
+    color: black solid;
+    font-style:normal;
+    text-align:center;
+}
+
+h2 {
+    color:black solid;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    text-align: center;
+}
+
+nav {
+    color: black;
+    display: flex
+    margin 0px;
+    padding-top: 0px;
+    padding: 0px;
+}
+
+
+li {
+    display: inline-block;
+}
+
+li:hover {
+    background-color: lavender;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 10px
+}
+
+.card-image-top {
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    font: black;
+    font-size: $font-size;
+    text-decoration: none;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 0px;
+    line-height: $line-height-base;
+}
+
